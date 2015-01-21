@@ -1,2 +1,3 @@
-# aspnet-mvc-angularjs-samples
-Samples using AngularJS and ASP.NET MVC
+# Samples using AngularJS and ASP.NET MVC
+ 
+
