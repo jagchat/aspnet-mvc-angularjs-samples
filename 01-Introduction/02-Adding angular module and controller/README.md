@@ -1,6 +1,6 @@
 # Samples using AngularJS and ASP.NET MVC
 
-## Adding AngularJS module and controller
+## AngularJS: Adding module and controller
 
 - Demonstrates on how to create/add an AngularJS module
 - Demonstrates on how to create/add controller to a module
