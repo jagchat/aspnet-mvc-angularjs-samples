@@ -1,0 +1,40 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html ng-app="SampleApp">
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <script src="~/Scripts/angular.js"></script>
+    <script src="~/Scripts/Site.js"></script>
+</head>
+<body>
+    <div ng-controller="EmpCtrl">
+        <table>
+            <tr>
+                <td width="150px">Employee Id:</td>
+                <td>{{Empno}}</td>
+            </tr>
+            <tr>
+                <td>Name:</td>
+                <td>{{Ename}}</td>
+            </tr>
+            <tr>
+                <td>Salary:</td>
+                <td><input type="text" ng-model="Sal"/></td>
+            </tr>
+            <tr>
+                <td>Department:</td>
+                <td>{{Deptno}}</td>
+            </tr>
+            <tr>
+                <td>Annual Salary:</td>
+                <td>{{GetAnnSal()}}</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
